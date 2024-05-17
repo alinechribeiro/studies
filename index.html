@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study and Test Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            margin: 2rem auto;
+            max-width: 800px;
+            background-color: white;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #f9f9f9;
+            margin: 0.5rem 0;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .add-btn {
+            display: block;
+            width: 100%;
+            padding: 0.5rem;
+            margin: 1rem 0;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .add-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Study and Test Tracker</h1>
+    </header>
+    <div class="container">
+        <div class="section" id="upcoming-tests">
+            <h2>Upcoming Tests</h2>
+            <ul>
+                <li>Math Test - May 20, 2024</li>
+                <li>Science Test - May 25, 2024</li>
+            </ul>
+            <button class="add-btn">Add Test</button>
+        </div>
+        <div class="section" id="study-schedule">
+            <h2>Study Schedule</h2>
+            <ul>
+                <li>Math: Monday, Wednesday, Friday - 3:00 PM to 5:00 PM</li>
+                <li>Science: Tuesday, Thursday - 4:00 PM to 6:00 PM</li>
+            </ul>
+            <button class="add-btn">Add Study Schedule</button>
+        </div>
+        <div class="section" id="resources">
+            <h2>Study Resources</h2>
+            <ul>
+                <li><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></li>
+                <li><a href="https://www.coursera.org/" target="_blank">Coursera</a></li>
+            </ul>
+            <button class="add-btn">Add Resource</button>
+        </div>
+    </div>
+</body>
+</html>
